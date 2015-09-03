@@ -3,8 +3,8 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
 		xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.twoexvia.twoexCam"
-    version="0.0.1">
-    <name>2exCamera</name>
+    version="0.0.2">
+    <name>2exCam</name>
     <description>2exVia Camera Plugin</description>
     <license>Apache 2.0</license>
     <keywords>2exvia,camera</keywords>
@@ -14,20 +14,20 @@
     <clobbers target="com.twoexvia.2exCam" />
   </js-module>
 
-  <!-- android --
+  <!-- android -->
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="2exCam">
-        <param name="android-package" value="com.twoexvia.2exCam.TwoexviaCamera" />
+        <param name="android-package" value="com.twoexvia.twoexCam.TwoexviaCamera" />
         <param name="onload" value="true" />
       </feature>
     </config-file>
 
     <source-file src="src/android/TwoexviaCamera.java" target-dir="src/com/twoexvia/2exCam" />
   </platform>
--->
-    <!-- ios --
+
+    <!-- ios 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Keyboard">
@@ -41,7 +41,7 @@
         <source-file src="src/ios/UIWebViewExtension.m" />
     </platform>
 -->
-    <!-- blackberry10 --
+    <!-- blackberry10 
     <platform name="blackberry10">
         <source-file src="src/blackberry10/index.js" target-dir='Keyboard' />
         <lib-file src="src/blackberry10/native/device/libKeyboard.so" arch="device"/>
