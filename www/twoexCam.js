@@ -4,15 +4,15 @@ utils = require('cordova/utils'),
 exec = require('cordova/exec');
 */
 
-var 2exCam = function() {
+var twoexCam = function() {
 };
 /*
-2exCam.takeSnapshot = function(){
+twoexCam.takeSnapshot = function(){
 	exec(null, null, "Keyboard", "close", []);
 };
 */
 
-2exCam.alert = function(content){
+twoexCam.alert = function(content){
   window.alert(content);
 };
 /*
@@ -40,7 +40,7 @@ Keyboard.styleDark = function(dark) {
 
 // Keyboard.isVisible = false;
 
-module.exports = 2exCam;
+module.exports = twoexCam;
 
 
 

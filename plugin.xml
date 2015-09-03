@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
 		xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.twoexvia.2exCam"
+    id="com.twoexvia.twoexCam"
     version="0.0.1">
     <name>2exCamera</name>
     <description>2exVia Camera Plugin</description>
@@ -10,7 +10,7 @@
     <keywords>2exvia,camera</keywords>
    <repo></repo>
     <issue></issue>
-  <js-module src="www/2exCam.js" name="2exCam">
+  <js-module src="www/twoexCam.js" name="twoexCam">
     <clobbers target="com.twoexvia.2exCam" />
   </js-module>
 
