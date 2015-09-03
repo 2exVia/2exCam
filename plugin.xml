@@ -11,14 +11,14 @@
    <repo></repo>
     <issue></issue>
   <js-module src="www/twoexCam.js" name="twoexCam">
-    <clobbers target="com.twoexvia.2exCam" />
+    <clobbers target="com.twoexvia.twoexCam" />
   </js-module>
 
   <!-- android -->
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="2exCam">
+      <feature name="twoexCam">
         <param name="android-package" value="com.twoexvia.twoexCam.TwoexviaCamera" />
         <param name="onload" value="true" />
       </feature>
